@@ -1,0 +1,15 @@
+name: Item
+main: hapu\Item\Main
+author: "hapu"
+version: "빌드1"
+api:
+ - 3.0.0-ALPHA10
+ - 3.0.0-ALPHA11
+
+commands:
+  명상:
+    description: 명령어상점의 기본 명령어입니다.
+    permission: sell.diamond.command
+permissions:
+  sell.diamond.command:
+    default: true
